@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+*
+	box-sizing: border-box
+	margin: 0
+	padding: 0
+
+body, html
+	margin: 0
+	padding: 0
+	width: auto
+	color: $light
+	font-family: $font
+	background-color: $main
+	font-weight: 400
+	font-size: 16px
+	line-height: 1.5
+	overflow-x: hidden
+	-ms-overflow-style: scrollbar
+
+a, a:hover, a:active, a:link, a:focus
+	text-decoration: none
+	outline: none
+	color: $light
+img
+	max-width: 100%
+
+ul 
+	list-style: none
+	font-size: 16px
+
+div, span, article, nav, section,main, header
+	padding: 0
+	margin: 0
+	
+input, button, select, textarea
+	border: 0
+	box-shadow: 0 0 10px rgba(0,0,0,0.2)
+	font-size: 18px
+	color: $light
+input[type="text"],input[type="tel"], input[type="password"], input[type="email"]
+	background-color: #ECECEC
+	color: $main
+	-webkit-appearance: none
+	appearance: none
+	-moz-appearance: none
+	padding: 15px 25px
+	border: 1px solid #ECECEC
+	box-shadow: none
+	border-radius: 5px
+	font-size: 18px
+	height: 60px
+	width: 100%
+	max-width: 390px
+
+input[type="text"],input[type="tel"],input[type="submit"], button
+	-webkit-appearance: none
+	appearance: none
+	-moz-appearance: none
+	padding: 15px 25px
+	box-shadow: none
+	
+	
+input:focus, textarea:focus, select:focus, button:focus, select:focus
+	outline: none
+h1, h2, h3, h4, h5
+	font-weight: 700
+	line-height: 1.2
+.gray
+	color: $dark
+.container 
+	width: 100%
+	padding-right: 15px
+	padding-left: 15px
+	margin-right: auto
+	margin-left: auto
+
+@media (min-width: 576px) 
+  .container 
+    max-width: 540px
+
+@media (min-width: 767px) 
+  .container 
+    max-width: 740px
+
+@media (min-width: 992px) 
+  .container 
+    max-width: 960px
+
+@media (min-width: 1200px) 
+  .container 
+    max-width: 1170px 
+section, footer
+	padding-top: 70px
+	padding-bottom: 70px
+.disabled
+	pointer-events: none
+	opacity: 0.5
+.hide
+	display: none
+.flex
+	display: flex
+	
+.button
+	background-color: #fff
+	color: $main
+	font-weight: 700
+	font-size: 22px
+	display: flex
+	justify-content: center
+	align-items: center
+	transition: 0.3s
+	max-width: 280px
+	border-radius: 5px
+	cursor: pointer
+	height: 60px
+.button.alt
+	background-color: $main
+	color: #fff	
+.title
+	font-size: 64px
+
