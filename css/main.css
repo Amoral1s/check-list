@@ -186,6 +186,7 @@
 
 .form-right form input {
   margin-bottom: 20px;
+  appearance: none;
 }
 
 .form-right form input[type="submit"] {
@@ -370,6 +371,13 @@
   }
   .list {
     padding-bottom: 50px;
+  }
+  .list-right ul:after {
+    top: 55px;
+    height: calc(100% - 70px);
+  }
+  .list-right ul h3 {
+    min-height: 42px;
   }
   .who-wrap-item-left img, .get-wrap-item img {
     width: 50px;
